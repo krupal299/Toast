@@ -104,7 +104,7 @@ public extension UIView {
             }
             imageView.contentMode = .scaleAspectFit
             imageView.layer.masksToBounds = true
-            imageView.image = imageView.image!.withRenderingMode(.alwaysTemplate)
+//            imageView.image = imageView.image!.withRenderingMode(.alwaysTemplate)
             imageView.tintColor = UIColor.white
             return imageView
         }()
