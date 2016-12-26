@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		E99D12D91E1185B700D53AC7 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99D12D81E1185B700D53AC7 /* Toast.swift */; };
+		E99D13431E11A12600D53AC7 /* ic_error.png in Resources */ = {isa = PBXBuildFile; fileRef = E99D13421E11A12600D53AC7 /* ic_error.png */; };
+		E99D13451E11A13300D53AC7 /* ic_info.png in Resources */ = {isa = PBXBuildFile; fileRef = E99D13441E11A13300D53AC7 /* ic_info.png */; };
+		E99D13471E11A13E00D53AC7 /* ic_success.png in Resources */ = {isa = PBXBuildFile; fileRef = E99D13461E11A13E00D53AC7 /* ic_success.png */; };
+		E99D13491E11A14700D53AC7 /* ic_warning.png in Resources */ = {isa = PBXBuildFile; fileRef = E99D13481E11A14700D53AC7 /* ic_warning.png */; };
 		E9B75BFF1E1021D200B915E4 /* Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = E9B75BFD1E1021D200B915E4 /* Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E99D12D81E1185B700D53AC7 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		E99D13421E11A12600D53AC7 /* ic_error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_error.png; sourceTree = "<group>"; };
+		E99D13441E11A13300D53AC7 /* ic_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_info.png; sourceTree = "<group>"; };
+		E99D13461E11A13E00D53AC7 /* ic_success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_success.png; sourceTree = "<group>"; };
+		E99D13481E11A14700D53AC7 /* ic_warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_warning.png; sourceTree = "<group>"; };
 		E9B75BFA1E1021D200B915E4 /* Toast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Toast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9B75BFD1E1021D200B915E4 /* Toast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Toast.h; sourceTree = "<group>"; };
 		E9B75BFE1E1021D200B915E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -29,6 +37,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E99D134A1E11A15000D53AC7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E99D13421E11A12600D53AC7 /* ic_error.png */,
+				E99D13461E11A13E00D53AC7 /* ic_success.png */,
+				E99D13441E11A13300D53AC7 /* ic_info.png */,
+				E99D13481E11A14700D53AC7 /* ic_warning.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		E9B75BF01E1021D200B915E4 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +70,7 @@
 				E9B75BFD1E1021D200B915E4 /* Toast.h */,
 				E9B75BFE1E1021D200B915E4 /* Info.plist */,
 				E99D12D81E1185B700D53AC7 /* Toast.swift */,
+				E99D134A1E11A15000D53AC7 /* images */,
 			);
 			path = Toast;
 			sourceTree = "<group>";
@@ -125,6 +145,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E99D13471E11A13E00D53AC7 /* ic_success.png in Resources */,
+				E99D13431E11A12600D53AC7 /* ic_error.png in Resources */,
+				E99D13491E11A14700D53AC7 /* ic_warning.png in Resources */,
+				E99D13451E11A13300D53AC7 /* ic_info.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
