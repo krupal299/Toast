@@ -199,58 +199,6 @@ public extension UIView {
             
             showToast(toastView: toastView)
             
-        }
-        
-        
+        }   
     }
-    
-    
-    
-    
-    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
